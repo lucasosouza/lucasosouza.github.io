@@ -13,6 +13,7 @@
   to delete this chunk of a comment as well. -->
 
 On version control, Github and collaboration
+
 01/11/2014
 
 Version Control is about keeping track of all the changes you've done to a file. If you don't know any better way, you are probably doing that by renaming multiple copies of the file with a v1.0 or vNumber in front of them.
