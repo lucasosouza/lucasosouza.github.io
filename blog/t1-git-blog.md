@@ -12,7 +12,7 @@
   simple, so you can just feel free to type. =) You'll want
   to delete this chunk of a comment as well. -->
 
-On version control, Github and collaboration
+<h3> On version control, Github and collaboration </h3>
 
 01/11/2014
 
