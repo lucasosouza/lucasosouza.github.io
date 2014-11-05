@@ -1,0 +1,83 @@
+
+body {
+	background-color:#FFF4ED; /*#FFF4ED*/
+}
+
+.container {
+	width:60%;
+	height:70%;
+	margin-left:10%;
+}
+
+nav {
+	width:25%;
+	height:100%;
+	float:left;
+	margin-top:4.5%;
+}
+
+li{
+	list-style-type: none;
+}
+
+/* Deal with links later
+a {
+	color:#000000;
+	text-decoration:none;	
+}
+
+a:visited {
+	color:#000000;
+	text-decoration:none;	
+}
+*/
+
+section {
+	width:65%;
+	height:120%;
+	float:right;
+	overflow:auto;
+}
+
+footer {
+	width:65%;
+	height:20%;
+	float:right;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+
+.submenu{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.submenu:hover{
+}
+
+.submenu-list {
+	visibility: hidden;
+}
+
+.submenu:hover .submenu-list,
+.submenu:hover ~ .submenu-list {
+	visibility: visible;
+}
+
+.introduction-text{
+	font-size: 1.5em;
+	font-family:cursive;
+}
+
+.introduction-header{
+	font-size: 2.5em;
+	font-family:cursive;
+}
+
+.secondary-text{
+	font-size: 1em;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
