@@ -2,6 +2,8 @@
 }
 
 .container {
+  width:auto;
+  height:auto;
 }
 
 
@@ -40,6 +42,7 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+
 .center{
   text-align: center;
   position: relative;
@@ -73,7 +76,6 @@
 }
 
 .imagebox{
-  position:relative;
   text-align:center;
   height:100%;
   width:100%;
