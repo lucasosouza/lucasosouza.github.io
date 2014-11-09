@@ -1,39 +1,73 @@
-<!-- This template is in markdown, not html, so
-  it will not render beautifully when you copy and
-  paste it into your github.io site, but it will at
-  least be published. Next week you'll be creating a
-  blog template using HTML and CSS and you'll be able
 
-  to copy and paste the blog posts from week 1 in there
-  to make them pretty next week.
+<!DOCTYPE html>
+<html>
+  <head>
+        <!--title goes here-->
+        <title>DevelopSomething</title>
+        <!--title end here-->
+    <link type="text/css" rel="stylesheet" href="./blog-stylesheet.css">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <div class="container post">
+    <a href="#">Back</a>
+    <!--post goes here-->
+        <h1>What is GitHub for anyway?</h1> <!-- post title -->
+        <h6>Saturday, 1st of November, 2014</h6> <!-- post date -->
+        <!--post-->
+      <p>
+      When I started learning CSS, I realized this is concept the most useful a begginer can grasp. And it is quite easy to understand and use it. Before we enter explanations, take a look at this image, borrowed from W3Schools. It says everything :
+      </p>
 
-  For now, please replace the title, subtitle (if desired),
-  and date with the text you would like. Markdown is pretty
-  simple, so you can just feel free to type. =) You'll want
-  to delete this chunk of a comment as well. -->
+      <div class="imagebox">
+      <img src="http://www.w3schools.com/css/box-model.gif">
+      </div>
 
-<h3> What is the difference between Margin, Border, and Padding? </h3>
+      <p>
+      Think your webpage is like a onion. No, no, erase that, bad analogy. Think your webpage is a gift (much better!). Your mother's birthday is coming up. So you decide to buy her a cassete player, so she can listen to her old times favorite tape, "ABBA Greatest hits". Then, to protect the player, you wisely choose to safeguard it in a nice wooden box, and you stuff the box with shredded newspaper so nothing happens to the cassete player. That still don't look like a gift, though. So you wrap the wooden box in a nice colored paper you bought at the local convenience store. Looking good now. So, at last, to make it a big surprise(!), you hide it in her top drawer along with her other jewelries.
+      </p>
+      <p>
+      So, think a little bit about this story. What does it have to do with CSS, margin, border and padding? The cassete player is your <strong>content</strong>. The player is inside a container, the wooden box. All the empty space between the cassete and the wooden box walls, which you filled with shredded newspaper, is the <strong>padding</strong>. You also wrapped the container in a nice colored gift paper, which is your <strong>border</strong>. And finally, you put it in a bigger container, the drawer(aka the webpage). The empty space between the drawer and the wooden box is the <strong>margin</strong>. Confusing? I hope not.
+      </p>
+      <p>
+      This is called the <strong>CSS Box Model</strong>. Just remember the analogy any time you're putting a cassete player, I mean a content, into your webpage. You got three layers between your content and the page: first the empty space between the content and the border, which is called padding; then the border; then the margin. Manipulate those attributes freely to reach the formatting style you want.
+      </p>
+      <p>
+      If you want to learn more search for CSS Box Model. A good starting point is <a href="http://www.w3schools.com/css/css_boxmodel.asp">W3Schools</a>, where you can test out your newly acquired skills.
+      </p>
+      <p>
+      See you on the next post!
+      </p>
+    </div>
 
-<date>05/11/2014</date>
+    <!-- links to external references -->
+    <ul class="linkgroup">
+        <a href="http://br.linkedin.com/pub/lucas-o-souza/4/713/967/" target="_blank"><li class="socialmedia-link">LinkedIn</li></a> |
+        <a href="https://twitter.com/lucasosouza" target="_blank"><li class="socialmedia-link">Twitter</li></a> |
+        <a href="https://github.com/lucasosouza" target="_blank"><li class="socialmedia-link">GitHub</li></a>
+    </ul>
 
-<p>
-When I started learning CSS, I realized this is concept the most useful a begginer can grasp. And it is quite easy to understand and use it. Before we enter explanations, take a look at this image, borrowed from W3Schools. It says everything :
-</p>
+    <!--use this box to call attention to something you want, like extra materials,
+    or quote of the day -->
+    <div class="container quote">
+      <div class="imagebox">
+      <span class="helper"></span><img src="http://blog.w3c.br/wp-content/uploads/2013/03/css31-213x300.png">
+      </div>
+    </div>
 
-<img src="http://www.w3schools.com/css/box-model.gif">
 
-<p>
-Think your webpage is like a onion. No, no, erase that, bad analogy. Think your webpage is a gift (much better!). Your mother's birthday is coming up. So you decide to buy her a cassete player, so she can listen to her old times favorite tape, "ABBA Greatest hits". Then, to protect the player, you wisely choose to safeguard it in a nice wooden box, and you stuff the box with shredded newspaper so nothing happens to the cassete player. That still don't look like a gift, though. So you wrap the wooden box in a nice colored paper you bought at the local convenience store. Looking good now. So, at last, to make it a big surprise(!), you hide it in her top drawer along with her other jewelries.
-</p>
-<p>
-So, think a little bit about this story. What does it have to do with CSS, margin, border and padding? The cassete player is your <strong>content</strong>. The player is inside a container, the wooden box. All the empty space between the cassete and the wooden box walls, which you filled with shredded newspaper, is the <strong>padding</strong>. You also wrapped the container in a nice colored gift paper, which is your <strong>border</strong>. And finally, you put it in a bigger container, the drawer(aka the webpage). The empty space between the drawer and the wooden box is the <strong>margin</strong>. Confusing? I hope not.
-</p>
-<p>
-This is called the <strong>CSS Box Model</strong>. Just remember the analogy any time you're putting a cassete player, I mean a content, into your webpage. You got three layers between your content and the page: first the empty space between the content and the border, which is called padding; then the border; then the margin. Manipulate those attributes freely to reach the formatting style you want.
-</p>
-<p>
-If you want to learn more search for CSS Box Model. A good starting point is <a href="http://www.w3schools.com/css/css_boxmodel.asp">W3Schools</a>, where you can test out your newly acquired skills. 
-</p>
-<p>
-<em>See you on the next post!<em>
-</p>
+    <!--use this to link to other blog posts -->
+    <div class="container linkcloud">
+      <h3 class="center">Tech Posts</h3>
+      <p class="link-to-post center"><a href="./t1-git-blog.html">What is GitHub for anyway?</a></p>
+      <p class="link-to-post center"><a href="./t2-css-design.html">What is the difference between Margin, Border, and Padding? </a></p>
+      <h3 class="center">Other Stuff</h3>
+      <p class="link-to-post center"><a href="./c1-chefs-kitchen.html">Expectations about DBC</a></p>
+    </div>
+
+    <div class="footer">
+      Created by Mike and Lucas
+    </div>
+
+  </body>
+</html>
